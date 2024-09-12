@@ -6,17 +6,22 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: ${USERNAME}
-      POSTGRES_PASSWORD: "${PASSWORD}"
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
-      - ./data
-    # set shared memory limit when using docker-compose
-    shm_size: 128mb
-    # or set shared memory limit when deploy via swarm stack
-    #volumes:
-    #  - type: tmpfs
-    #    target: /dev/shm
-    #    tmpfs:
-    #      size: 134217728 # 128*2^20 bytes = 128Mb
+      - ./pgdata:/var/lib/postgresql/data
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    restart: always
+    ports:
+      - "8888:80"
     environment:
-      POSTGRES_PASSWORD: "${PASSWORD}"
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    volumes:
+      - ./data:/var/lib/pgadmin
+
+volumes:
+  local_pgdata:
+  pgadmin-data:
