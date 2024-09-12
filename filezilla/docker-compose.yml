@@ -1,0 +1,9 @@
+services:
+  filezilla:
+    image: jlesage/filezilla
+    container_name: filezilla
+    ports:
+      - "5800:5800"
+    volumes:
+      - "./config:/config:rw"
+      - "./storage:/storage:rw"
