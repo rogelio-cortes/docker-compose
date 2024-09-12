@@ -13,8 +13,6 @@ filezilla/storage/
 
 jellyfin/config/
 jellyfin/cache/
-jellyfin/media/
-jellyfin/media2/
 
 postgres/pgdata/
 postgres/pgadmindata/
