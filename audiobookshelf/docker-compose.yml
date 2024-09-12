@@ -1,6 +1,7 @@
 services:
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf:latest
+    container_name: audiobookshelf
     # ABS runs on port 13378 by default. If you want to change
     # the port, only change the external port, not the internal port
     ports:
@@ -20,8 +21,3 @@ services:
       # you are running ABS on
       - ./config:/config
     restart: unless-stopped
-    # You can use the following environment variable to run the ABS
-    # docker container as a specific user. You will need to change
-    # the UID and GID to the correct values for your user.
-    #environment:
-    #  - user=1000:1000
