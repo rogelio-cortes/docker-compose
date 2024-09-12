@@ -1,7 +1,7 @@
 services:
   jdownloader-2:
     image: jlesage/jdownloader-2
-    constainer_name: jdownloader
+    container_name: jdownloader
     restart: always
     ports:
       - "5800:5800"
