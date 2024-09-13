@@ -29,29 +29,29 @@ To get started, ensure you have Docker and Docker Compose installed:
 
 3. Clone this repository:
 
-   \`\`\`bash
+   ```
    git clone https://github.com/rogelio-cortes/docker-compose-files.git
-   \`\`\`
+   ```
 
 4. Navigate to the folder with the docker-compose file you'd like to use:
 
-   \`\`\`bash
+   ```
    cd docker-compose-files/your-environment
-   \`\`\`
+   ```
 
 ## Usage
 
 1. Run the following command to start the services:
 
-   \`\`\`bash
+   ```
    docker-compose up
-   \`\`\`
+   ```
 
 2. To stop and remove containers, networks, and volumes:
 
-   \`\`\`bash
+   ```
    docker-compose down
-   \`\`\`
+   ```
 
 ### Customizing Configuration
 
