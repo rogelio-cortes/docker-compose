@@ -61,13 +61,11 @@ You can modify the \`docker-compose.yml\` file to suit your needs, such as chang
 
 This repository includes Docker Compose files for the following services:
 
-- **Audiobookshelf** - A self-hosted audiobook and podcast server.
-- **FileZilla** - A cross-platform FTP solution for both client and server.
-- **JDownloader** - A popular download manager for automated downloading from various hosting services.
-- **Jellyfin** - A media server for organizing and streaming your personal media collections.
-- **Postgres with pgAdmin** - A powerful, open-source object-relational database system paired with a web-based database management tool.
-
-Each folder contains a specific \`README.md\` with additional setup details for that service.
+- **[Audiobookshelf](https://github.com/advplyr/audiobookshelf)** - A self-hosted audiobook and podcast server.
+- **[FileZilla](https://github.com/jlesage/docker-filezilla)** - A cross-platform FTP solution for both client and server.
+- **[JDownloader](https://github.com/jlesage/docker-jdownloader-2)** - A popular download manager for automated downloading from various hosting services.
+- **[Jellyfin](https://jellyfin.org/docs/general/installation/container)** - A media server for organizing and streaming your personal media collections.
+- **[Postgres](https://hub.docker.com/_/postgres) with [pgAdmin](https://hub.docker.com/r/dpage/pgadmin4)** - A powerful, open-source object-relational database system paired with a web-based database management tool.
 
 ## Contributing
 
