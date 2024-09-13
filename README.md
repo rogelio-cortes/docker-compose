@@ -61,7 +61,7 @@ You can modify the \`docker-compose.yml\` file to suit your needs, such as chang
 
 This repository includes Docker Compose files for the following services:
 
-- **[Audiobookshelf](https://github.com/advplyr/audiobookshelf)** - A self-hosted audiobook and podcast server.
+- **[Audiobookshelf](https://www.audiobookshelf.org/docs#docker-compose-install)** - A self-hosted audiobook and podcast server.
 - **[FileZilla](https://github.com/jlesage/docker-filezilla)** - A cross-platform FTP solution for both client and server.
 - **[JDownloader](https://github.com/jlesage/docker-jdownloader-2)** - A popular download manager for automated downloading from various hosting services.
 - **[Jellyfin](https://jellyfin.org/docs/general/installation/container)** - A media server for organizing and streaming your personal media collections.
