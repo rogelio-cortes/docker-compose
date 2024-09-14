@@ -16,3 +16,6 @@ jellyfin/cache/
 
 postgres/pgdata/
 postgres/pgadmindata/
+
+adguard/work
+adguard/conf

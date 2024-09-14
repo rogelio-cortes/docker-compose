@@ -1,6 +1,6 @@
 # Docker Compose Files
 
-This repository contains Docker Compose files for various services, including Audiobookshelf, FileZilla, JDownloader, Jellyfin, and Postgres with pgAdmin. These configurations simplify the setup and management of these services using Docker.
+This repository contains Docker Compose files for various services, including Aduardhome, Audiobookshelf, FileZilla, JDownloader, Jellyfin, and Postgres with pgAdmin. These configurations simplify the setup and management of these services using Docker.
 
 ## Table of Contents
 
@@ -61,6 +61,7 @@ You can modify the \`docker-compose.yml\` file to suit your needs, such as chang
 
 This repository includes Docker Compose files for the following services:
 
+- **[Adguard Home](https://hub.docker.com/r/adguard/adguardhome)** - A network-wide software for blocking ads and tracking, providing privacy protection and faster browsing speeds.
 - **[Audiobookshelf](https://www.audiobookshelf.org/docs#docker-compose-install)** - A self-hosted audiobook and podcast server.
 - **[FileZilla](https://github.com/jlesage/docker-filezilla)** - A cross-platform FTP solution for both client and server.
 - **[JDownloader](https://github.com/jlesage/docker-jdownloader-2)** - A popular download manager for automated downloading from various hosting services.
