@@ -1,0 +1,16 @@
+services:
+  qbittorrentvpn:
+    image: dyonr/qbittorrentvpn
+    container_name: qbittorrent
+    environment:
+      VPN_TYPE: ${VPN_TYPE}
+      VPN_USERNAME: ${VPN_USERNAME}
+      VPN_PASSWORD: ${VPN_PASSWORD}
+      VPN_ENABLED: "yes"
+      LAN_NETWORK: "192.168.0.0/24"
+    volumes:
+      - ./config:/config
+      - ./downloads:/downloads
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

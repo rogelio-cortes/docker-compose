@@ -19,3 +19,6 @@ postgres/pgadmindata/
 
 adguard/work/
 adguard/conf/
+
+qbittorrent/config/
+qbittorrent/downloads/

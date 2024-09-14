@@ -1,6 +1,6 @@
 # Docker Compose Files
 
-This repository contains Docker Compose files for various services, including Aduardhome, Audiobookshelf, FileZilla, JDownloader, Jellyfin, and Postgres with pgAdmin. These configurations simplify the setup and management of these services using Docker.
+This repository contains Docker Compose files for various services that I find useful to run on my home server.
 
 ## Table of Contents
 
@@ -67,6 +67,7 @@ This repository includes Docker Compose files for the following services:
 - **[JDownloader](https://github.com/jlesage/docker-jdownloader-2)** - A popular download manager for automated downloading from various hosting services.
 - **[Jellyfin](https://jellyfin.org/docs/general/installation/container)** - A media server for organizing and streaming your personal media collections.
 - **[Postgres](https://hub.docker.com/_/postgres) with [pgAdmin](https://hub.docker.com/r/dpage/pgadmin4)** - A powerful, open-source object-relational database system paired with a web-based database management tool.
+- **[qBittorrentVPN](https://hub.docker.com/r/dyonr/qbittorrentvpn/)** - A torrent client with an integrated VPN for secure and anonymous downloading, using the dyonr/qbittorrentvpn Docker image.
 
 ## Contributing
 
