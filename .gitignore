@@ -1,7 +1,7 @@
 .env
 
 jdownloader/config/
-jdownloader/output/
+jdownloader/downloads/
 
 audiobookshelf/audiobooks/
 audiobookshelf/podcasts/
@@ -17,5 +17,5 @@ jellyfin/cache/
 postgres/pgdata/
 postgres/pgadmindata/
 
-adguard/work
-adguard/conf
+adguard/work/
+adguard/conf/
