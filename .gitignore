@@ -22,3 +22,4 @@ adguard/conf/
 
 qbittorrent/config/
 qbittorrent/downloads/
+*.ovpn
